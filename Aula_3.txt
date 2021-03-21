@@ -1,0 +1,38 @@
+    1  gif config --global user. name 'Cristina La Rosa'
+    2  gif config user.name
+    3  gif cofig --global user.name 'cristina la rosa'
+    4  git config --global user.nome 'Cristina La Rosa'
+    5  git config --global user.email 'criscarolarosreque@gmail.com'
+    6  git config user.name
+    7  git config user.nome
+    8  cd Desktop/
+    9  mkdir Curso_Git
+   10  cd Curso_Git
+   11  git config user.nome
+   12  git init
+   13  git status
+   14  echo 'Aprendendo usar o Git' > readme.md
+   15  git status
+   16  git add readme.md
+   17  git status
+   18  git commit -m 'commit inicial'
+   19  git status
+   20  echo '##Aula 1'>> readme.md
+   21  git status
+   22  echo 'Cristina La Rosa' > participantes.txt
+   23  git status
+   24  git add
+   25  git add .
+   26  git status
+   27  git restore --staged participantes.txt
+   28  git status
+   29  git add participantes.txt
+   30  git status
+   31  git restore --staged .
+   32  git status
+   33  git commit -am 'Alteração no readme'
+   34  git status
+   35  git add participantes.txt
+   36  git status
+   37  git commit -m 'adicionaddo participante txt'
+   38  history > Aula_3.txt
